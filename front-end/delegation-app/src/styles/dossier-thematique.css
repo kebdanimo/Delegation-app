@@ -1,0 +1,6 @@
+.dossier-thematique .active {
+  background-color: rgb(197, 197, 197);
+}
+.dossier-thematique td {
+  padding: 18px;
+}

@@ -1,0 +1,50 @@
+.history-conge {
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+  background-color: rgb(250, 251, 253);
+}
+
+.conge-grid {
+  height: 90%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  row-gap: 0px;
+}
+
+.conge {
+  width: 100%;
+  height: 260px;
+  border: 2px solid rgba(210, 210, 210, 1);
+}
+.conge table {
+  height: 55%;
+}
+.conge td {
+  border: 1px solid rgba(210, 210, 210, 1);
+  padding: 5px;
+}
+
+.type-rest {
+  background-color: rgba(210, 210, 210, 1);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 30%;
+}
+.conge-detail {
+  height: 15%;
+  padding-right: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.add-cong {
+  margin-bottom: 20px;
+  color: rgba(30, 83, 122, 1);
+}

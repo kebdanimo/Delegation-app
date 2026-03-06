@@ -1,0 +1,233 @@
+.hero {
+  height: 500px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  /* text-align: center; */
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ----------------------------- section ------------------------------- */
+
+.section {
+  margin-top: 40px;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  gap: 20px;
+}
+.section .element {
+  height: 100%;
+  flex: 1;
+  border: 1px solid rgba(0, 132, 228, 1);
+}
+
+/*  ---------------------------- layout----------  */
+.test {
+  width: 100%;
+  height: 500px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.inner-test-one {
+  height: 100%;
+  width: calc((100% / 3) - 20px);
+  border: 1px solid;
+}
+.dossier-thematique{
+  height: 100%;
+  width: 100%;
+}
+.inner-test-two {
+  height: 100%;
+  width: calc((100% / 3) * 2);
+}
+
+.test-container {
+  width: 100%;
+  height: calc(100% - 15%);
+}
+/* ------------------Agenda----------------- */
+
+.element-title {
+  background-color: rgba(0, 132, 228, 1);
+  color: white;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 15%;
+  padding-left: 10px;
+}
+.agenda-container {
+  width: 100%;
+  height: calc(100% - 15%);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+table {
+  width: 100%;
+}
+.agenda-container td {
+  border: 1px solid rgba(0, 132, 228, 1);
+  height: 150px;
+  padding: 20px;
+}
+.date {
+  font-weight: bold;
+}
+
+.element-container {
+  width: 100%;
+  height: calc(100% - 15%);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.test .active {
+  background-color: rgb(197, 197, 197);
+}
+.test td {
+  padding: 18px;
+}
+
+/* ------------------ evenement ----------------- */
+.event-container {
+  height: 100%;
+  width: 100%;
+}
+.event-img {
+  height: 45%;
+  width: 100%;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.event-img img {
+  width: 100%;
+}
+
+.event-disc {
+  height: 55%;
+  width: 100%;
+  padding: 20px;
+  position: relative;
+}
+.event-link {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  font-weight: bold;
+}
+
+/* ------------------gallery----------------- */
+
+.gallery .element-container {
+  overflow-y: hidden !important;
+  width: 100%;
+}
+
+.gallery-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.gallery-container img {
+  width: 100%;
+}
+.gallery-container .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.521);
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 60px 25px;
+}
+.gallery-container .overlay h1 {
+  /* font-weight: bold; */
+  line-height: 40px;
+}
+
+/* ------------------videos----------------- */
+
+
+
+/* ----------------------------- link slider ------------------------------- */
+
+.link-slider-container {
+  width: 100%;
+  height: 500px;
+  margin-top: 40px;
+}
+
+.link-slider-header {
+  width: 100%;
+  height: 30%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link-slider-header h1 {
+  border-bottom: 9px solid rgba(0, 132, 228, 1);
+}
+
+.link-slider {
+  width: 100%;
+  height: 70%;
+}
+
+.link {
+  height: 100%;
+  width: 18%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.link-img {
+  height: 100px;
+  width: 150px;
+  /* background-color: rgba(0, 133, 228, 0.247); */
+  border-radius: 50%;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* overflow: hidden; */
+}
+.link-img img {
+  /* width: 100%; */
+}

@@ -1,0 +1,23 @@
+
+
+.delege-profile {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: rgb(219, 238, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.delege-profile img {
+  width: 100%;
+}
+
+.nom-delegue {
+  margin-top: 40px;
+}
+.disc-delegue {
+  margin-top: 30px;
+}

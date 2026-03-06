@@ -1,0 +1,36 @@
+.register {
+  width: 100%;
+  height: calc(100vh - 13vh);
+  border: 4px solid rgba(30, 83, 122, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .register form {
+  width: 60%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.register label {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.register input {
+  width: 50%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+.register button {
+  padding: 10px 30px;
+  background-color: rgba(30, 83, 122, 1);
+  color: white;
+}
+
+.background {
+  display: none !important;
+} */

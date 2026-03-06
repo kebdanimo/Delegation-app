@@ -1,0 +1,30 @@
+.detail-conge-container {
+  width: 100%;
+  height: 100%;
+  padding: 100px 50px 50px 50px;
+  display: flex;
+  align-items: flex-start;
+  overflow-y: scroll;
+}
+.detail-conge-container .add-conge-info-mini-section {
+  margin-bottom: 50px;
+}
+.repondre {
+  padding: 10px 20px;
+  background-color: rgb(55, 107, 145);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.valider {
+  margin-right: 30px;
+}
+.m {
+  margin-top: -30px;
+}
+.l {
+  font-weight: 500;
+  color: rgba(30, 83, 122, 1);
+}

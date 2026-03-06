@@ -1,0 +1,150 @@
+.add-conge-container {
+  padding: 50px;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.add-conge-title {
+  border-bottom: 4px solid rgb(50, 123, 175);
+  margin-bottom: 30px;
+}
+
+.mini-title {
+  border-bottom: 2px solid;
+}
+/* ----------------------------------------------------- */
+.add-conge-info {
+  width: 100%;
+  display: flex;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(38, 92, 131);
+}
+.add-conge-info-section {
+  flex: 1;
+}
+.add-conge-info-mini-section {
+  display: flex;
+}
+.add-conge-info-mini-section h3 {
+  color: rgb(38, 92, 131);
+}
+.add-conge-info-mini-section p {
+  margin-left: 10px;
+}
+
+/* ----------------------------------------------------- */
+
+.add-conge-form {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(38, 92, 131);
+}
+.add-conge-form-section {
+  flex: 1;
+}
+
+.add-conge-form .field {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  gap: 5px;
+}
+.add-conge-form .field input,
+.add-conge-form .field select {
+  padding: 5px 7px;
+  border-radius: 5px;
+  border: 1px solid rgba(30, 83, 122, 1);
+}
+.add-conge-form .field label {
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: rgba(30, 83, 122, 1);
+}
+.add-conge-form .field button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #376b91;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.add-conge-form .field button:hover {
+  background-color: rgb(77, 119, 149);
+}
+
+/* ----------------------------------------------------- */
+
+.add-detail-conge {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(38, 92, 131);
+}
+.add-detail-conge-section {
+  flex: 1;
+}
+.add-detail-conge .field {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+
+  gap: 5px;
+}
+.add-detail-conge input {
+  padding: 5px 7px;
+  border-radius: 5px;
+  border: 1px solid rgba(30, 83, 122, 1);
+}
+
+.add-detail-conge .field label {
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: rgba(30, 83, 122, 1);
+}
+.add-detail-conge .field button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: rgb(55, 107, 145);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.add-detail-conge.field button:hover {
+  background-color: rgb(77, 119, 149);
+}
+
+/* ----------------------------------------------------- */
+
+.conge-detail-table {
+  width: 100%;
+}
+.conge-detail-table thead {
+  background-color: rgb(77, 119, 149);
+  color: white;
+}
+.conge-detail-table td {
+  border-right: 1px solid white;
+}
+.conge-detail-table tbody td {
+  border: 1px solid rgb(77, 119, 149);
+}
+.conge-detail-table td {
+  padding: 10px;
+}
+
+.MuiDatePicker-root {
+  width: 100%; /* Set the desired percentage width */
+}

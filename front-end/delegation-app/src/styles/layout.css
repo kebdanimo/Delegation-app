@@ -1,0 +1,31 @@
+.globale-container {
+  width: 100%;
+  /* height: calc(100vh - 53vh); */
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.global-content-container {
+  width: calc((100% / 3) * 2) ;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  padding: 20px;
+  border-right: 1px solid rgba(0, 132, 228, 1);
+  margin-right: 20px;
+}
+
+.globale-side-bar {
+  width: calc((100% / 3));
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.global-table,
+.global-events {
+  width: 100%;
+  height: 500px;
+}

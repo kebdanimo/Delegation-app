@@ -1,0 +1,48 @@
+.main-artical {
+  width: 100%;
+  margin-bottom: 40px;
+  border-right: 1px solid rgba(0, 132, 228, 1);
+  border-bottom: 1px solid rgba(0, 132, 228, 1);
+}
+.main-artical-img {
+  width: 100%;
+  height: 300px;
+  background-color: rgba(165, 165, 165, 0.693);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.main-artical-img img {
+  width: 100%;
+}
+
+.other-articals {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.artical {
+  border-right: 1px solid rgba(0, 132, 228, 1);
+  border-bottom: 1px solid rgba(0, 132, 228, 1);
+}
+
+.other-artical-img {
+  width: 100%;
+  height: 200px;
+  background-color: rgba(165, 165, 165, 0.693);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.other-artical-img img {
+  width: 100%;
+}
+
+.main-artical h1,
+.artical h2 {
+  margin: 10px;
+  font-weight: normal;
+}

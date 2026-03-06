@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  width: 100%;
+}
+
+*::-webkit-scrollbar {
+  width: 14px;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+  border-radius: 100px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #bcbcbc;
+  border-radius: 100px;
+  border: 4px solid #e4e4e4;
+}
+
+.big-container {
+  width: 100%;
+}
+.App {
+  height: 100%;
+  width: 80%;
+  margin: auto;
+}
+
+.dossier-thematique {
+  height: 100%;
+  width: 100%;
+}

@@ -1,0 +1,33 @@
+.app-event-container {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 30px;
+  background-color: rgb(250, 251, 253);
+}
+
+.event {
+  width: 100%;
+  padding: 20px;
+  background-color: #ffffff;
+  filter: drop-shadow(14px 12px 15px rgba(0, 0, 0, 0.15));
+  border-left: 5px solid rgb(50, 123, 175);
+  border-radius: 5px;
+}
+
+.date {
+  color: rgb(48, 106, 147);
+  font-weight: lighter;
+}
+
+.app-event-link {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.add-event-title {
+  border-bottom: 4px solid rgb(50, 123, 175);
+  margin-bottom: 30px;
+}
